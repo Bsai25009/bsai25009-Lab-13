@@ -1,0 +1,148 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("HD-wallpaper-white-gold.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.aa {
+  background-image: url("HD-wallpaper-white-gold.png");
+  background-size: cover;        
+  background-position: center;    
+  background-repeat: no-repeat;  
+  background-attachment: fixed;   
+  min-height: 100vh;              
+}
+
+
+/* 🧭 Navbar */
+.Nav1-div {
+  height: 90px;
+  width: 1700px;
+  background-color:    black;
+  position: relative;
+}
+
+/* Buttons */
+.Home-div, .Pro-div, .Abus-div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 15px 25px;
+  font-size: 24px;  
+  border-radius: 15px;
+  
+}
+
+.Home-div { background-color: green; right: 1150px; }
+.Pro-div { background-color: red; right: 950px; }
+.Ab-div { background-color: black; right: 700px; }
+.Abus-div { background-color: brown; right: 750px; }
+
+.hell { color: yellow; text-decoration: none; }
+
+
+.image-row, .image-row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  margin-top: 50px;
+}
+
+.image-row img, .image-row1 img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+
+.fot1-div {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+}
+
+
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+  padding-bottom: 80px;
+}
+
+.products .item {
+  text-align: center;
+  width: 220px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+.products img {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.products p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 8px;
+  line-height: 1.3;
+}
+
+.header-logo {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.header-logo img {
+  width: 130px;          
+  height: auto;
+  border-radius: 10px;  
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.header-logo img:hover {
+  transform: scale(1.05);
+}
+.Ls{
+  color : black;
+  font-size: 20px;
+
+}
+ .image-row2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  margin-top: 50px;
+}
+
+ .image-row2 img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
